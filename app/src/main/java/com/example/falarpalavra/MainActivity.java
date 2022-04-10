@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        icone = findViewById(R.id.imageView);
+        texto = findViewById(R.id.textView2);
         icone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
